@@ -1,0 +1,9 @@
+/data/
+/data/store/
+/data/input/
+/data/output/
+
+#Ignore all files with ending
+*.xlsx
+*.csv
+*.pkl
