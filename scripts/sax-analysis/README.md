@@ -40,7 +40,7 @@ before running.
 
 or if the conda environemnt already exists, update this with:
 
-    $ conda env update --file environemnt.yml --prune
+    $ conda env update --file environment.yml --prune
     
     
 ## manual installation of 2 own written packages
@@ -59,3 +59,12 @@ or if the conda environemnt already exists, update this with:
     $ pip install saxpy
     $ pip install pandas-profiling
 ```
+
+## info for PyCharm user
+
+If the paths to the files in folder 'src' and to config.py are not shown properly (red -> can't reference to them)
+
+* **delete content root**: File -> settings -> Project: cov19_pub -> Project structure
+* **add content root**: File -> settings -> Project: cov19_pub -> Project structure -> 
+**+** '/home/schmidmarco/Documents/CODE/PROJECTS/cov19_pub/scripts/baseline-survival-analysis' and 
+**+** '/home/schmidmarco/Documents/CODE/PROJECTS/cov19_pub/scripts/sax-analysis' 
