@@ -26,9 +26,9 @@ In step 'data_preprocessing' a working file (named as defined in config.py) will
 folder 'data/output'. This file is input for further processes like 'ml_pipeline'. 
 
 ## update conda environment to environment.yaml
-If new external packages are installed in the local conda environment 'cov19_publication.yaml'-file have to be updated with:
+If new external packages are installed in the local conda environment 'cov19_pub.yaml'-file have to be updated with:
 
-    $  conda env export --name cov19_publication > environment.yml
+    $  conda env export --name cov19_pub > environment.yml
 
 ## build new conda environment if cloned project
 If this project is cloned to a new system, the environment can be built with:
@@ -38,7 +38,7 @@ before running.
 
     $ conda env create --file environment.yml
 
-or if the conda environemnt already exists, update this with:
+or if the conda environment already exists, update this with:
 
     $ conda env update --file environment.yml --prune
     

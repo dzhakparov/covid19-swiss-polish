@@ -149,10 +149,10 @@ repl_pattern_values = [0.05, 0.01, 0.15, 3.5, 0.001, 2.5, np.nan]
 # 3.
 
 # random_states = [1, 2, 3, 25, 26, 10, 11, 12, 13, 14, 33, 34, 35, 36, 37]
-# random_states = [1211,2341,4351,5641,1521,6541,8961,9851,7471,8681,9011,4321,9801,1921,8561]
+# random_states = [1211,2341,4351,5641,1521,6541,8961,9851,7471,8681,9011,4321,9801,1921,8561]  # ORIGINAL
 random_states = [1211,2341]
 
-# test_sizes = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35]  # other test-sizes are removed
+# test_sizes = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35]  # other test-sizes are removed  # ORIGINAL
 test_sizes = [0.25]  # other test-sizes are removed
 
 scoring = ['accuracy', 'roc_auc', 'precision']
@@ -219,6 +219,7 @@ params = (
              'estimator__weights': ['uniform', 'distance']
              },
 
+            # ORIGINAL -> comment-in following models
             # {'estimator': [RandomForestClassifier()],
             #  'estimator__max_depth': [1, 2, 3],
             #  'estimator__min_samples_leaf': [0.01, 0.05, 0.10],  # slightly positive
