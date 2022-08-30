@@ -1,8 +1,0 @@
-eli5==0.10.1
-missingno==0.4.2
-numpy==1.17.1
-pandas==1.2.4
-plotly==5.2.1
-preprocessing==0.1.13
-scikit_learn==1.1.2
-scikit_survival==0.17.2
